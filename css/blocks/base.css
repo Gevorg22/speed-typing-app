@@ -41,3 +41,7 @@ body {
     text-decoration: underline;
     font-size: 22px;
 }
+
+.mobile-block {
+    margin-left: 10px;
+}
