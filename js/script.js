@@ -20,7 +20,7 @@ inputElement.setAttribute("readonly", "true");
 let counterId = 0;
 let letterId = 1;
 
-let timeCounter = 60;
+let timeCounter = 59;
 let errorCounter = 0;
 let speedCounter = 0;
 
