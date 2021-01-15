@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Speed Typing App</title>
+	<link rel="icon" href="./img/title.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo">
+			<a href="index.html" class="logo-title">Клавиатурный тренажёр</a>
+			<div class="logo-description">Узнайте скорость своей печати</div>
+		</div>	
+
+        <div class="result">
+            <div class="result-info">
+				<div class="result-time">
+                    <div class="time__sum">Времени осталось:</div>
+                    <div class="time__value">60</div>
+				</div>
+                <div class="result-speed">
+                    <div class="speed__sum">Символов:</div>
+                    <div class="speed__value">0</div>
+                </div>
+                <div class="result-error">
+                    <div class="error__sum">Ошибок:</div>
+                    <div class="error__value">0</div>
+				</div>
+				<div>
+					<button class="button">Начать</button>
+				</div>
+            </div>
+		</div>
+
+        <div class="form">
+            <form action="">
+                <input id="input" type="text" class="input" placeholder="Перед стартом убедитесь, что включена русская раскладка клавиатуры" autocomplete="off">
+            </form>
+        </div>
+
+        <div class="text" id="textExample"></div>
+
+        <div class="keyboard">
+            <div class="line">
+				<div class="light" data-key="ё">Ё</div>
+				<div class="green" data-key="1">1</div>
+				<div class="green" data-key="2">2</div>
+				<div class="blue" data-key="3">3</div>
+				<div class="pink" data-key="4">4</div>
+				<div class="orange" data-key="5">5</div>
+				<div class="orange" data-key="6">6</div>
+				<div class="yellow" data-key="7">7</div>
+				<div class="yellow" data-key="8">8</div>
+				<div class="pink" data-key="9">9</div>
+				<div class="blue" data-key="0">0</div>
+				<div class="green" data-key="-">-</div>
+				<div class="green" data-key="+">+</div>
+				<div class="backspace light" data-key="Backspace">Backspace</div>
+			</div>
+			<div class="line">
+				<div class="tab light" data-key="Tab">Tab</div>
+				<div class="green" data-key="й">Й</div>
+				<div class="blue" data-key="ц">Ц</div>
+				<div class="pink" data-key="у">У</div>
+				<div class="orange" data-key="к">К</div>
+				<div class="orange" data-key="е">Е</div>
+				<div class="yellow" data-key="н">Н</div>
+				<div class="yellow" data-key="г">Г</div>
+				<div class="pink" data-key="ш">Ш</div>
+				<div class="blue" data-key="щ">Щ</div>
+				<div class="green" data-key="з">З</div>
+				<div class="green" data-key="х">Х</div>
+				<div class="green" data-key="ъ">Ъ</div>
+				<div class="light" id="backslash">\</div>
+			</div>
+			<div class="line">
+				<div class="caps light" data-key="CapsLock">Caps Lock</div>
+				<div class="green" data-key="ф">Ф</div>
+				<div class="blue" data-key="ы">Ы</div>
+				<div class="pink" data-key="в">В</div>
+				<div class="orange" data-key="а">А</div>
+				<div class="orange" data-key="п">П</div>
+				<div class="yellow" data-key="р">Р</div>
+				<div class="yellow" data-key="о">О</div>
+				<div class="pink" data-key="л">Л</div>
+				<div class="blue" data-key="д">Д</div>
+				<div class="green" data-key="ж">Ж</div>
+				<div class="green" data-key="э">Э</div>
+				<div class="enter light" data-key="Enter">Enter</div>
+			</div>
+			<div class="line">
+				<div class="shift light" id="shiftLeft">Shift</div>
+				<div class="green" data-key="я">Я</div>
+				<div class="blue" data-key="ч">Ч</div>
+				<div class="pink" data-key="с">С</div>
+				<div class="orange" data-key="м">М</div>
+				<div class="orange" data-key="и">И</div>
+				<div class="yellow" data-key="т">Т</div>
+				<div class="yellow" data-key="ь">Ь</div>
+				<div class="pink" data-key="б">Б</div>
+				<div class="blue" data-key="ю">Ю</div>
+				<div class="green" data-key=".">.<sup data-key=",">,</sup></div>
+				<div class="shift light" id="shiftRight" >Shift</div>
+			</div>
+			<div class="line">
+				<div class="alt light" data-key="Alt">Alt</div>
+				<div class="space light" data-key=" "></div>
+			</div>
+		</div>
+    </div><!-- container -->
+
+	<footer class="footer">
+        <div class="container">
+			<div class="contacts">
+				<div class="contact-description">Thank you for visiting <span>social links</span></div>
+				<div class="contact-link">
+					<img class="contact-icon" src="./img/contacts/github.png" alt="contact-icon" draggable="false">
+					<a class="contact-page" href="https://github.com/Gevorg22" target="_blank">Github</a>
+				</div>
+				<div class="contact-link">
+					<img class="contact-icon" src="./img/contacts/instagram.png" alt="contact-icon" draggable="false">
+					<a class="contact-page" href="https://instagram.com/gevorg.kara" target="_blank">Instagram</a>
+				</div>  
+				<div class="contact-link">
+					<img class="contact-icon" src="./img/contacts/gmail.png" alt="contact-icon" draggable="false">
+					<a class="contact-page" href="mailto:gevorg227@gmail.com">Написать письмо</a>
+				</div>
+			</div>
+		</div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

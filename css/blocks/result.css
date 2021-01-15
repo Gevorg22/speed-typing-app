@@ -1,0 +1,50 @@
+.result {
+    margin-bottom: 30px;
+}
+
+.result-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgb(161, 161, 161);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.result-info__finished {
+    background-color: #68caff;
+    font-size: 22px;
+}
+
+.result-time, .result-speed, .result-error {
+    display: flex;
+    margin-right: 35px;
+}
+
+.time__sum, .speed__sum, .error__sum {
+    margin-right: 5px;
+}
+
+.button {
+    margin-left: 30px;
+    padding: 5px 25px;
+    background-color: #4cbefa;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-decoration: none;
+    transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in, opacity 0.3s ease-in;
+}
+
+.button:hover{
+    background-color: #68caff;
+    box-shadow: 0px 4px 15px rgba(40, 125, 182, 0.473);
+}
+
+.button-hidden {
+    opacity: 0;
+}

@@ -1,0 +1,44 @@
+.footer {
+    flex-shrink: 0;
+    background-color:#92d9fc;
+    border-top: 1px solid rgb(82, 206, 255);
+    box-shadow: inset 2px 2px 5px rgba(153, 144, 134, 0.5), 1px 1px 5px rgb(255, 255, 255);
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.contact-description {
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+.contact-description span {
+    margin-left: 100px;
+}
+
+.contact-link {
+    display: flex;
+    margin-right: 40px;
+}
+
+.contact-icon {
+    width: 23px;
+    height: 23px;
+    margin-right: 7px;
+}
+
+.contact-page {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-shadow: 2px 2px 3px rgb(126, 117, 109);
+    transition: color 0.2s ease-in;
+}
+
+.contact-page:hover {
+    color: rgb(95, 95, 95);
+}
+
