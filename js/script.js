@@ -1,7 +1,7 @@
 'use strict'
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-    document.querySelector('.container').innerHTML = `<h2 class="mobile-block">Вы используете мобильное устройство (телефон или планшет). Пожалуйста, используйте ПК.</h2>`;
+    document.querySelector('.container').innerHTML = `<h2 class="mobile-block">Вы используете мобильное устройство (телефон или планшет)! Пожалуйста, используйте ПК.</h2>`;
     document.querySelector('.footer').remove();
 } 
 
