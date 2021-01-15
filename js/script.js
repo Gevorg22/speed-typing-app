@@ -27,7 +27,7 @@ elemToSpan();
 
 function getTextArray () {
     let xhr = new XMLHttpRequest();
-    let url = '../db/db.json';
+    let url = '.././db/db.json';
     xhr.open("GET", url, false);
     xhr.send();
     if (xhr.status == 200) {
