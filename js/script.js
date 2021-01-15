@@ -1,5 +1,10 @@
 'use strict'
 
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+    document.querySelector('.container').innerHTML = `<h1>Вы используете мобильное устройство (телефон или планшет). Пожалуйста, используйте ПК</h1>`;
+    document.querySelector('.footer').remove();
+} 
+
 const inputElement = document.querySelector('#input');
 const textExampleElement = document.querySelector('#textExample');
 const button = document.querySelector('.button');
