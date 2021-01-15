@@ -189,11 +189,3 @@ button.addEventListener('click', () => {
 inputElement.addEventListener('keydown', KeyDownPressed);
 
 inputElement.addEventListener('keyup', KeyUpPressed);
-
-
-
-
-
-
-
-
