@@ -2,6 +2,6 @@
 
 https://gevorg22.github.io/speed-typing-app/
 
-Клавиатурный тренажёр, написанный на нативном JS. 
+A keyboard simulator written in native JS.
 
-Для старта необходимо нажать "начать".  У Вас есть 60 секунд для набора. Печать текста должна быть идентичной с текстом (необходимо соблюдать пунктуацию, пробелы, заглавные буквы).
+To start, click "start". You have 60 seconds to dial. The printing of the text must be identical to the text (punctuation, spaces, capital letters must be observed).
